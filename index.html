@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+<section class="profile">
+    <div class="container">
+        <div class="header">
+            <div class="header-logo">
+                <img class="header-logo-img" src="images/avatar.png"/>
+            </div>
+            <div class="header-body">
+                <div class="header-name">Вероника Ростова</div>
+                <div class="header-title">Менеджер по продажам</div>
+                <div class="header-media">
+                    <p>
+                        Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="services">
+            <span class="services-title">Услуг</span>
+            <div class="services-body">
+                <ul class="services-list-names">
+                    <li class="services-list-names-1">
+                        <span class="fill-li"></span>
+                        Ручное бронирование
+                    </li>
+                    <li class="services-list-names-2">
+                        <span class="fill-li"></span>
+                        Пакетные туры
+                    </li>
+                    <li class="services-list-names-3">
+                        <span class="fill-li"></span>
+                        Отели
+                    </li>
+                </ul>
+                
+                <ul class="services-list-count">
+                    <li>11</li>
+                    <li>3</li>
+                    <li>1</li>
+                </ul>
+            </div>
+            <div class="services-all">
+                <span class="">Всего</span>
+                <span>15</span>
+            </div>
+        </div>
+        
+        <div class="nav-comment">
+            <div class="col-1">
+                <span class="title">Последние отзывы</span>
+                <a href="#" class="comment-all">Все отзывы</a>
+            </div>
+            
+            <div class="col-2">
+                <div class="likes">
+                    <img src="images/ico-like.svg" alt="icon-like">
+                    <span>131</span>
+                </div>
+                <div class="count">
+                    <img src="images/ico-comment.svg" alt="icon-comment">
+                    <span>14</span>
+                </div>
+            </div>
+        
+        </div>
+        <div class="static-comments">
+            <div class="comment">
+                <div class="comment-title">
+                    <span class="user-name">Самуил</span>
+                    <span class="user-date">13 октября 2011</span>
+                </div>
+                
+                <div class="comment-body">
+                    <p class="coment-body-inner">
+                        Привет, Верунь! ниче себе ты крутая. фотка класс!!!!
+                    </p>
+                </div>
+            
+            </div>
+            
+            <div class="comment">
+                <div class="comment-title">
+                    <span class="user-name">Лилия Семёновна</span>
+                    <span class="user-date">14 октября 2011</span>
+                </div>
+                
+                <div class="comment-body">
+                    <p class="coment-body-inner">
+                        Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно
+                        стабилизирует кинетический момент, это и есть всемирно известный центр
+                        огранки алмазов и торговли бриллиантами?
+                    </p>
+                </div>
+            
+            </div>
+            
+            <div class="comment">
+                <div class="comment-title">
+                    <span class="user-name">Лилия Семёновна</span>
+                    <span class="user-date">14 октября 2011</span>
+                </div>
+                
+                <div class="comment-body">
+                    <p class="coment-body-inner">
+                        Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно
+                        стабилизирует кинетический момент?
+                    </p>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="comment-form-wrapper">
+        <div class="container">
+            <div class="comment-form">
+                <div class="comment-form-field">
+                    <textarea name="textarea" id="commentTextarea"></textarea>
+                </div>
+                <div class="comment-form-btn">
+                    <a onclick="addComment()" class="contact-btn" href="javascript:void(0);">
+                        Написать консультанту
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
